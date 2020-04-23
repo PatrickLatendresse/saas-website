@@ -1,0 +1,71 @@
+.banner {
+  background-color: #6598D3;
+  margin: 0;
+}
+
+.skip-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  width: 50vw;
+}
+
+body {
+  margin: 0;
+  background-color: #white;
+}
+
+li{
+  list-style-type: none;
+  margin: 0 2vw;
+  font-size: 3vh;
+  align-items: right;
+  text-align: right;
+}
+
+header {
+  background: #f4a5ff;
+  width: 100%;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+}
+
+nav ul li a {
+  padding: 33px 15px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: #93B5DC;
+}
+
+.logo {
+  position: absolute;
+  margin: 0;
+  float: left;
+  width: 200px;
+}
+
+img {
+  align-items: center;
+  width: 75%;
+  padding-right: 15px;
+}
+
+.card {
+  background-color: #EFEFEF;
+}
