@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: Roboto, sans-serif;
   background-color: #6598d3;
 }
@@ -22,16 +21,16 @@ nav a {
   display: block;
   padding: .5em .75em;
   text-decoration: none;
-  color: white;
-}
-
-nav a:hover {
-  background-color: #93b5db;
   color: #fff;
 }
 
+nav a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .banner {
-  background-color: #6598d3;
+  background-color: #000;
 }
 
 .graphic {
@@ -41,7 +40,8 @@ nav a:hover {
 }
 
 .card {
-  background-color: #efefef;
+  background-color: #fff;
+  color: #000;
 }
 
 .signup {
@@ -55,8 +55,8 @@ nav a:hover {
 
 .card2 {
   text-align: right;
-  background-color: #efefef;
-  color: #6598d3;
+  background-color: #fff;
+  color: #000;
 }
 
 @media only screen and (min-width: 25em) {
